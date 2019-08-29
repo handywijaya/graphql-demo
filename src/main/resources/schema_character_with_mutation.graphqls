@@ -1,0 +1,14 @@
+type Query {
+  getCharacter(name: String!): Character,
+  addCharacter(name: String!): String
+}
+
+type Mutation {
+  addTwoCharacters(name1: String!, name2: String!): [Character]!
+}
+
+type Character {
+  name: String,
+  age: Int,
+  friend: [String]
+}

@@ -1,4 +1,4 @@
-package com.handy.graphql.demo.helloworld;
+package com.handy.graphql.demo.app.helloworld;
 
 import graphql.ExecutionResult;
 import graphql.GraphQL;
